@@ -4,4 +4,4 @@ Firmware for: [Urchin Keyboard](https://github.com/duckyb/urchin)
 > My firmware only matches the following diagram if the operating system is set to "Italian" keyboard input.
 
 ## Keymap Cheat Sheet
-![keyboard cheat sheet](./imgs/7-7-2024KbLayout.svg)
+![keyboard cheat sheet](./imgs/8-7-2024KbLayout.svg)
