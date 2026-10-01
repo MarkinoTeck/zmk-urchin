@@ -18,6 +18,8 @@
 #define SYM2 4
 #define ACCENT 5
 #define SETTINGS 6
+#define MATH 7
+#define ALG 8
 // -----------------
 
 &sk {
@@ -72,6 +74,12 @@
 			timeout-ms = <200>;
 			key-positions = <30 31>;
 			bindings = <&mo SETTINGS>;
+		};
+		// both inner thumb keys: math symbols
+		combo_math {
+			timeout-ms = <200>;
+			key-positions = <31 32>;
+			bindings = <&mo MATH>;
 		};
 		// left index & middle fingers (home-row)
 		// hold control & space for Adobe workflow
@@ -159,6 +167,28 @@
 				&none &none &none &none      &bt BT_SEL 1 						  &bt BT_SEL 4 &none &none &none &none
 				&studio_unlock &none &none &none      &bt BT_SEL 2               &bt BT_SEL 5 &none &none &none &studio_unlock
 										&none &none                         &none &none 
+			>;
+		};
+
+		// Math symbols: analysis, sets, logic (&mo ALG on the right outer thumb)
+		math_layer {
+			label = "Math";
+			bindings = <
+			&kp M_INF &kp M_SQRT &kp M_INT &kp M_SUM &kp M_PART          &kp M_REAL &kp M_NAT &kp M_INTG &kp M_RAT &kp M_CPLX
+			&kp M_LE &kp M_GE &kp M_NE &kp M_APPROX &kp M_PM            &kp M_IN &kp M_SUBSET &kp M_SUBEQ &kp M_UNION &kp M_INTER
+			&kp M_FORALL &kp M_EXISTS &kp M_EMPTY &kp M_ARROW &kp M_IMPL  &kp M_IFF &kp M_EPS &kp M_DELTA &kp M_PI &kp M_LAMBDA
+								&none &none                                 &none &mo ALG
+			>;
+		};
+
+		// Math symbols: linear algebra and Greek letters
+		alg_layer {
+			label = "Alg.";
+			bindings = <
+			&kp M_OPLUS &kp M_OTIMES &kp M_PERP &kp M_PAR &kp M_CONG        &kp M_NORM &kp M_LANG &kp M_RANG &kp M_TRANSP &kp M_COMP
+			&kp M_LAMBDA &kp M_MU &kp M_THETA &kp M_DOT &kp M_CROSS       &kp M_IN &kp M_SUBEQ &kp M_EMPTY &kp M_IMPL &kp M_IFF
+			&kp M_FORALL &kp M_EXISTS &none &none &none                   &none &none &none &none &none
+								&none &none                                 &none &trans
 			>;
 		};
 	};
