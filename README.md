@@ -11,7 +11,7 @@ Download the firmware zip from the latest action run. Check [the ZMK docs](https
 
 ## Keymap Cheat Sheet
 
-This layout is inspired by [Seniply by Stevep99](https://github.com/duckyb/urchin-zmk-firmware)
+This layout is inspired by [duckyb](https://github.com/duckyb/urchin-zmk-firmware)
 
 <div align="center">
   <img src="https://github.com/MarkinoTeck/zmk-urchin/raw/e6373dc73c8e60adde512f85d4acbb7303a5b862/kb-layout.drawio.svg" alt="kb-layout" width="100%">
