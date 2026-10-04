@@ -130,292 +130,26 @@
             #binding-cells = <0>;
             bindings = <&kp IT_BSLH &kp T &kp O &kp SPACE>;
         };
-        m_le: m_le {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp L &kp E &kp Q &kp SPACE>;
-        };
-        m_ge: m_ge {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp G &kp E &kp Q &kp SPACE>;
-        };
-        m_ne: m_ne {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp N &kp E &kp Q &kp SPACE>;
-        };
-        m_approx: m_approx {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp A &kp P &kp P &kp R &kp O &kp X &kp SPACE>;
-        };
-        m_pm: m_pm {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp P &kp M &kp SPACE>;
-        };
         m_inf: m_inf {
             compatible = "zmk,behavior-macro";
             wait-ms = <1>;
             tap-ms = <1>;
             #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp I &kp N &kp F &kp T &kp Y &kp SPACE>;
+            bindings = <&kp O &kp O &kp O>;
         };
         m_sqrt: m_sqrt {
             compatible = "zmk,behavior-macro";
             wait-ms = <1>;
             tap-ms = <1>;
             #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp S &kp Q &kp R &kp T &kp IT_LBRC &kp IT_RBRC &kp LEFT>;
-        };
-        m_int: m_int {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp I &kp N &kp T &kp SPACE>;
+            bindings = <&kp R &kp T>;
         };
         m_sum: m_sum {
             compatible = "zmk,behavior-macro";
             wait-ms = <1>;
             tap-ms = <1>;
             #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp S &kp U &kp M &kp SPACE>;
-        };
-        m_part: m_part {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp P &kp A &kp R &kp T &kp I &kp A &kp L &kp SPACE>;
-        };
-        m_real: m_real {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp M &kp A &kp T &kp H &kp B &kp B &kp IT_LBRC &kp LS(R) &kp IT_RBRC>;
-        };
-        m_nat: m_nat {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp M &kp A &kp T &kp H &kp B &kp B &kp IT_LBRC &kp LS(N) &kp IT_RBRC>;
-        };
-        m_intg: m_intg {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp M &kp A &kp T &kp H &kp B &kp B &kp IT_LBRC &kp LS(Z) &kp IT_RBRC>;
-        };
-        m_rat: m_rat {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp M &kp A &kp T &kp H &kp B &kp B &kp IT_LBRC &kp LS(Q) &kp IT_RBRC>;
-        };
-        m_cplx: m_cplx {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp M &kp A &kp T &kp H &kp B &kp B &kp IT_LBRC &kp LS(C) &kp IT_RBRC>;
-        };
-        m_eps: m_eps {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp V &kp A &kp R &kp E &kp P &kp S &kp I &kp L &kp O &kp N &kp SPACE>;
-        };
-        m_delta: m_delta {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp D &kp E &kp L &kp T &kp A &kp SPACE>;
-        };
-        m_pi: m_pi {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp P &kp I &kp SPACE>;
-        };
-        m_lambda: m_lambda {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp L &kp A &kp M &kp B &kp D &kp A &kp SPACE>;
-        };
-        m_mu: m_mu {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp M &kp U &kp SPACE>;
-        };
-        m_theta: m_theta {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp T &kp H &kp E &kp T &kp A &kp SPACE>;
-        };
-        m_oplus: m_oplus {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp O &kp P &kp L &kp U &kp S &kp SPACE>;
-        };
-        m_otimes: m_otimes {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp O &kp T &kp I &kp M &kp E &kp S &kp SPACE>;
-        };
-        m_perp: m_perp {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp P &kp E &kp R &kp P &kp SPACE>;
-        };
-        m_par: m_par {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp P &kp A &kp R &kp A &kp L &kp L &kp E &kp L &kp SPACE>;
-        };
-        m_cong: m_cong {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp C &kp O &kp N &kp G &kp SPACE>;
-        };
-        m_comp: m_comp {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp C &kp I &kp R &kp C &kp SPACE>;
-        };
-        m_dot: m_dot {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp C &kp D &kp O &kp T &kp SPACE>;
-        };
-        m_cross: m_cross {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp T &kp I &kp M &kp E &kp S &kp SPACE>;
-        };
-        m_norm: m_norm {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp IT_PIPE &kp IT_BSLH &kp IT_PIPE &kp LEFT &kp LEFT>;
-        };
-        m_transp: m_transp {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_CARET &kp LS(T)>;
-        };
-        m_lang: m_lang {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp L &kp A &kp N &kp G &kp L &kp E &kp SPACE>;
-        };
-        m_rang: m_rang {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp R &kp A &kp N &kp G &kp L &kp E &kp SPACE>;
-        };
-        m_frac: m_frac {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp F &kp R &kp A &kp C &kp IT_LBRC &kp IT_RBRC &kp IT_LBRC &kp IT_RBRC &kp LEFT &kp LEFT &kp LEFT>;
-        };
-        m_sup: m_sup {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_CARET &kp IT_LBRC &kp IT_RBRC &kp LEFT>;
-        };
-        m_sub: m_sub {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_UNDER &kp IT_LBRC &kp IT_RBRC &kp LEFT>;
-        };
-        m_inv: m_inv {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_CARET &kp IT_LBRC &kp IT_MINUS &kp 1 &kp IT_RBRC>;
-        };
-        m_lim: m_lim {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp L &kp I &kp M &kp SPACE>;
-        };
-        m_det: m_det {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp D &kp E &kp T &kp SPACE>;
-        };
-        m_ker: m_ker {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp K &kp E &kp R &kp SPACE>;
-        };
-        m_dim: m_dim {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <1>;
-            tap-ms = <1>;
-            #binding-cells = <0>;
-            bindings = <&kp IT_BSLH &kp D &kp I &kp M &kp SPACE>;
+            bindings = <&kp S &kp U &kp M>;
         };
     };
 
@@ -488,16 +222,16 @@
         ext_layer {
             label = "Mods";
             bindings = <
-            &kp C_PREV &kp C_PP &kp C_NEXT  &kp C_VOL_DN  	&kp C_VOL_UP    	&kp PG_UP    &kp HOME &kp UP &kp END &kp CAPS
-            &sk LALT &sk LGUI  &sk LSHIFT  	&sk LCTRL  		&kp RALT 			&kp PG_DN    &kp LEFT &kp DOWN &kp RIGHT &none
-            &kp LC(Z)  &kp LC(X) &kp LC(C) 	&kp TAB   		&kp LC(V)          	&kp LC(BSPC) &kp BSPC &kp DEL &none &none
+            &kp C_PREV &kp C_PP &kp C_NEXT  &kp C_VOL_DN  	&kp C_VOL_UP    	&kp PG_UP    &kp HOME   &kp UP      &kp END     &kp CAPS
+            &sk LALT &sk LGUI  &sk LSHIFT  	&sk LCTRL  		&kp RALT 			&kp PG_DN    &kp LEFT   &kp DOWN    &kp RIGHT   &ESC
+            &kp LC(Z)  &kp LC(X) &kp LC(C) 	&kp TAB   		&kp LC(V)          	&kp LC(BSPC) &kp BSPC   &kp DEL     &none       &none
                                             &trans 			&kp LCTRL    		&kp ENTER    &mo FNC
             >;
         };
 
         // Function keys with modifiers and settings.
         fnc_layer {
-            label = "FRow";
+            label = "Fn Row";
             bindings = <
             &kp F1      &kp F2  &kp F3 &kp F4 &kp F5                                &kp F6 &kp F7 &kp F8 &kp F9 &kp F10
             &none       &none   &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2        &kp F11 &kp F12  &kp PRINTSCREEN &trans &trans
@@ -521,7 +255,7 @@
         math_layer {
             label = "Math";
             bindings = <
-            &m_inf 		&m_sqrt 	&m_int 		&m_sum 		&m_part           	&m_real &m_nat 		&m_intg 	&m_rat 		&m_cplx
+            &m_inf 		&m_sqrt 	&m_sum 		&none 		&none           	&none   &none 		&none 	    &none 		&none
             &none 		&none 		&none 		&none 		&none               &m_in 	&m_subset 	&m_subeq 	&m_union 	&m_inter
             &m_forall	&m_exists 	&m_empty 	&m_arrow 	&m_impl  			&m_iff 	&none		&none 		&none 		&none
                                                 &none 		&none               &none 	&none
