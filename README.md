@@ -14,7 +14,7 @@ Download the firmware zip from the latest action run. Check [the ZMK docs](https
 This layout is inspired by [Seniply by Stevep99](https://github.com/duckyb/urchin-zmk-firmware)
 
 <div align="center">
-  ![kb-layout](kb-layout.drawio.svg)
+  ![kb-layout](https://github.com/MarkinoTeck/zmk-urchin/blob/e6373dc73c8e60adde512f85d4acbb7303a5b862/kb-layout.drawio.svg)
 </div>
 
 *This diagram was created using draw.io*
