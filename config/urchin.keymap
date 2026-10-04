@@ -13,9 +13,9 @@
 // Layer definitions
 #define BASE 0
 #define SYM 1
-#define EXT 2
-#define FNC 3
-#define SYM2 4
+#define SYM2 2
+#define EXT 3
+#define FNC 4
 #define ACCENT 5
 #define MATH 6
 // -----------------
